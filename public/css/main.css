@@ -1,0 +1,120 @@
+/* == Main Style == */
+/*Font*/
+.roboto     { font-family: 'Roboto', sans-serif }
+.montserrat { font-family: 'Montserrat', sans-serif }
+.raleway    { font-family: 'Raleway', 'sans-serif' }
+
+/*Padding & Margin*/
+.p10    { padding: 10px }
+.p15    { padding: 15px }
+.p20    { padding: 20px }
+.p30    { padding: 30px }
+.p100   { padding: 100px }
+.pt15   { padding-top: 15px }
+.pl5    { padding-left: 5px }
+.pr5    { padding-right: 5px }
+.pr10   { padding-right: 10px }
+.pr15   { padding-right: 15px }
+.m-auto { margin: auto }
+.m10    { margin: 10px }
+.mt5    { margin-top: 5px }
+.mt10   { margin-top: 10px }
+.mt20   { margin-top: 20px }
+.mt50   { margin-top: 50px }
+.mt100   { margin-top: 100px }
+.mt200   { margin-top: 200px }
+.mb10   { margin-bottom: 10px }
+.mb20   { margin-bottom: 20px }
+.ml5   { margin-left: 5px }
+.ml10   { margin-left: 10px }
+.ml20   { margin-left: 20px }
+.mr10   { margin-left: 10px }
+
+/*Font Size*/
+.f11    { font-size: 11px }
+.f12    { font-size: 12px }
+.f14    { font-size: 14px }
+.f16    { font-size: 16px }
+.f20    { font-size: 20px }
+.f40    { font-size: 40px }
+.f50    { font-size: 50px }
+
+/*Font Weight*/
+.fw300 { font-weight: 300 }
+.fw400 { font-weight: 400 }
+.fw600 { font-weight: 600 }
+.fw800 { font-weight: 800 }
+
+/*Color*/
+.bg-black   { background: #080808 }
+.bg-white   { background: #ffffff }
+.bg-dgrey   { background: #606161 }
+.bg-grey    { background: #949494 }
+.bg-lgrey   { background: #EDEDF2 }
+.bg-light   { background: #f6f9f8 }
+
+.txt-white          { color: #ffffff }
+.txt-dgrey          { color: #414042 }
+.txt-grey           { color: #949494 }
+.txt-lgrey          { color: #e7e7e7 }
+.txt-green          { color: #0EAD93 }
+.txt-green:hover    { color: #0DCCC0 }
+.txt-red            { color: #C0392B }
+.txt-red:hover      { color: #E84B3A }
+.txt-yellow         { color: #E3A712 }
+.txt-yellow:hover   { color: #F8C82D }
+
+/*Button*/
+.button             { padding: 15px }
+.btn-icon           { padding: 10px 15px 10px 15px; }
+.btn-rounded        { border-radius: 50px; }
+.btn-red            { background: #C0392B; color: #ffffff; }
+.btn-red:hover      { background: #E84B3A; color: #ffffff; }
+.btn-green          { background: #0EAD93; color: #ffffff; }
+.btn-green:hover    { background: #0DCCC0; color: #ffffff; }
+.btn-yellow         { background: #E3A712; color: #FFFFFF; }
+.btn-yellow:hover   { background: #F8C82D; color: #FFFFFF; }
+.btn-grey           { background: #414042; color: #f1f2f2; }
+.btn-grey:hover     { background: #656d78; color: #ffffff; }
+.btn-grey:focus     { background: #656d78; color: #ffffff; }
+
+.btn-border-red             { border: 2px solid #C0392B; color: #C0392B }
+.btn-border-red:hover       { background: #C0392B; color: #FFFFFF }
+.btn-border-green           { border: 2px solid #0EAD93; color: #0EAD93 }
+.btn-border-green:hover     { background: #0EAD93; color: #FFFFFF }
+.btn-border-yellow          { border: 2px solid #E3A712; color: #E3A712 }
+.btn-border-yellow:hover    { background: #E3A712; color: #FFFFFF }
+.btn-border-grey            { border: 2px solid #414042; color: #414042 }
+.btn-border-grey:hover      { background: #414042; color: #FFFFFF }
+
+/*Wrapper*/
+.wrapper    { width: 95%; margin: auto }
+.wrapper1   { width: 90%; margin: auto }
+.wrapper2   { width: 80%; margin: auto }
+.wrapper3   { width: 70%; margin: auto }
+
+/*Width & Height*/
+.w100   { width: 100% }
+.w70    { width: 70% }
+.w60    { width: 60% }
+.w50    { width: 50% }
+.w30    { width: 30% }
+.w20    { width: 20% }
+.w15    { width: 15% }
+
+/*Align*/
+.center     { text-align: center }
+.justifiy   { text-align: justify}
+.left       { text-align: left }
+.right      { text-align: right }
+
+/*Span Status*/
+.status-red     { font-size: 12px; padding: 4px; text-align: center; background: #C0392B; border-radius: 5px; color: #FFFFFF }
+.status-green   { font-size: 12px; padding: 4px; text-align: center; background: #0EAD93; border-radius: 5px; color: #FFFFFF }
+.status-yellow  { font-size: 12px; padding: 4px; text-align: center; background: #E3A712; border-radius: 5px; color: #FFFFFF }
+.status-grey    { font-size: 12px; padding: 4px; text-align: center; background: #414042; border-radius: 5px; color: #FFFFFF }
+
+/*Reset*/
+h1, h2, h3, h4, h5, p { margin: 0 }
+a { font-size: 14px }
+a:focus, a:after { outline: none; -moz-outline-style:none; }
